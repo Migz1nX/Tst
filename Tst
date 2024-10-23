@@ -2511,11 +2511,11 @@ CamShake:Stop()
 
 local Library = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
-MakeNotification("Mig Hub v1", "Choose Teams Bro?", "rbxassetid://78130593778045")
+Fluent:MakeNotification("Mig Hub v1", "Choose Teams Bro?", "rbxassetid://78130593778045", 7)
 
-MakeNotification("Mig Hub v1", "Mig Hub v1 v1", "rbxassetid://78130593778045")
+Fluent:MakeNotification("Mig Hub v1", "Mig Hub v1 v1", "rbxassetid://78130593778045", 25)
 
-MakeNotification("Mig Hub v1", "Please Wait loading script... Do not enable any function", "rbxassetid://78130593778045")
+Fluent:MakeNotification("Mig Hub v1", "Please Wait loading script... Do not enable any function", "rbxassetid://78130593778045", 5)
 
 -------------Tab-----------------------
 
@@ -8628,7 +8628,7 @@ spawn(function()
     if _G.AutoSharkman then
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
-            MakeNotification("Mig Hub v1 v1", "You not have beli or fragment!", "rbxassetid://78130593778045")
+            Fluent:MakeNotification("Mig Hub v1 v1", "You not have beli or fragment!", "rbxassetid://78130593778045", 5)
             end
         end
     end
@@ -11215,16 +11215,16 @@ spawn(function()
             if _G.Hopfindmoon then
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
-                MakeNotification("Mig Hub v1", "Turn Off Hop Find Moon Please", "rbxassetid://78130593778045")
+                Fluent:MakeNotification("Mig Hub v1", "Turn Off Hop Find Moon Please", "rbxassetid://78130593778045", 5)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
-                MakeNotification("Mig Hub v1", "Hop Server", "rbxassetid://78130593778045")
+                Fluent:MakeNotification("Mig Hub v1", "Hop Server", "rbxassetid://78130593778045", 5)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
-                MakeNotification("Mig Hub v1", "Hop Server", "rbxassetid://78130593778045")
+                Fluent:MakeNotification("Mig Hub v1", "Hop Server", "rbxassetid://78130593778045", 5)
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
-                MakeNotification("Mig Hub v1", "Hop Server", "rbxassetid://78130593778045")
+                Fluent:MakeNotification("Mig Hub v1", "Hop Server", "rbxassetid://78130593778045", 5)
             else
                 Hop()
                 end
@@ -11232,8 +11232,7 @@ spawn(function()
         end
     end)
 
-MakeNotification("Mig Hub v1", "Loading script complete! You can now enable the function!", "rbxassetid://78130593778045")
-
+Fluent:MakeNotification("Mig Hub v1", "Loading script complete!, You can now enable the function!", "rbxassetid://78130593778045", 5)
 _G.Remove_Effect = true
 
 spawn(function()
@@ -11268,4 +11267,4 @@ spawn(function()
     end
 end)
 
-MakeNotification("Mig Hub v1", "Loading script complete! You can now enable the function!", "rbxassetid://78130593778045")
+Fluent:MakeNotification("Mig Hub v1", "Loading Config Complete!!", "rbxassetid://78130593778045", 5)
