@@ -2509,8 +2509,7 @@ CamShake:Stop()
         return "Remaining " .. 10 - v228 .. " training sessions."
     end
 
--- Carregando a UI
-local FluentUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Fluent.lua"))()
+local Library = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 MakeNotification("Mig Hub v1", "Choose Teams Bro?", "rbxassetid://78130593778045")
 
